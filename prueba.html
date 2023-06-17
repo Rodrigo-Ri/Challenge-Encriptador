@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Encriptador de Texto</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+
+    <header class="encabezado">
+
+      <h1 class="titulo">Challenge: Encriptador</h1>
+
+    </header>
+
+    <main class="encriptacion">
+
+      <fieldset class="caja-encriptacion">
+
+        <div class="textos">
+
+          <label for="textoEntrada">Mensaje:</label>
+          <textarea id="textoEntrada" rows="4" placeholder="Escriba aquí..."></textarea>
+
+          <label for="textoSalida">Mensaje</br>encriptado/desencriptado:</label>
+          <textarea id="textoSalida" rows="4" readonly placeholder="Mensaje encriptado/desencriptado"></textarea>
+
+        </div>
+
+        <div class="botones">
+
+          <button onclick="encriptar()" class="boton1">Encriptar</button>
+          <button onclick="desencriptar()" class="boton2">Desencriptar</button>
+
+        </div>
+
+      </fieldset>
+
+      <script src="encriptar.js"></script>
+
+    </main>
+
+    <footer class="pie-pagina">
+
+      <img src="Firma-Estudiante.webp"  alt="Firma del autor">
+
+      <p class="copyright">&copy Copyright Rodrigo Rivera - 2023</p>
+
+    </footer>
+
+  </body>
+
+</html>
