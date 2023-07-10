@@ -101,3 +101,19 @@ img {
   width: 25%;
   height:auto;
 }
+
+@media screen and (max-width:480px){
+  h1{
+      text-align: center;
+  }
+  head{
+      position: static;
+  }
+  .encriptacion, .caja-encriptacion, .botones {
+      width: auto;
+  }
+  img{
+      width: 100%;
+  }
+
+}
